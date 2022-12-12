@@ -47,18 +47,30 @@ h1 {
     text-align: center;
     font-size: 5rem;
     color: #22A39F;
+    text-shadow: -1px 0 black, 0 1px black, 0 -1px black;
 }
 
 h2 {
     text-align: center;
     font-size: 2.5rem;
     padding: 50px;
+    text-shadow: 2px 2px #CECECE;
 }
 
 h3 {
     color: #22A39F;
     letter-spacing: -.05rem;
     text-align: center;
+    
+}
+
+h4 {
+    font-weight: 800;
+}
+
+h5 {
+    font-weight: 900;
+    font-size: 1.5rem;
 }
 
 p {
@@ -101,3 +113,28 @@ p {
     line-height: 25px;
 }
 
+#prices {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 200px;
+}
+
+.pricecard {
+    background-color: #F3EFE0;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    height: 375px;
+    box-shadow: 2px 2px;
+}
+
+.cardlist {
+    text-align: left;
+    padding: 40px;
+    padding-top: 0px;
+    line-height: 25px;
+    font-weight: 800;
+}
