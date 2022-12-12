@@ -1,0 +1,60 @@
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    background: #D9D9D9;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 10%;
+}
+
+nav li {
+    display: inline;
+    padding: 0px 25px;
+}
+
+nav li a{
+    transition: all 0.2s ease 0s;
+}
+
+nav li a:hover {
+    color: #22A39F;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: all 0.2s ease 0s;
+}
+
+button:hover {
+    background-color: #22A39F;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+    color: #22A39F;
+}
+
+p {
+    text-align: center;
+    letter-spacing: .5px;
+}
+
+.pagebutton {
+    padding: 75px;
+    text-align: center;
+}
